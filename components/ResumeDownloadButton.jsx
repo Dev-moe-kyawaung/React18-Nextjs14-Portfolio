@@ -1,0 +1,11 @@
+export default function ResumeDownloadButton() {
+  return (
+    <a
+      href="/cv.pdf"
+      download="Moe_Kyaw_Aung_CV.pdf"
+      className="inline-flex items-center gap-2 rounded-full bg-teal-600 px-4 py-2 text-sm text-white shadow-md hover:bg-teal-700 dark:bg-teal-500 dark:hover:bg-teal-400"
+    >
+      📄 Download CV
+    </a>
+  );
+}
